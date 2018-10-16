@@ -7,4 +7,4 @@ Curso introductorio a la tecnología Docker desde la base. Nos centraremos en lo
 Se describirán algunos casos de uso que son clave en el desarrollo de microservicios, computación cloud y devops.
 
 #### Contexto
-Este curso se imparte en el marco de formación interna de Etic sistemes para 2018
+Este curso se imparte en el marco de formación interna de Etic sistemes para 2018.
