@@ -18,3 +18,6 @@ Las distribuciones linux disponen de varios métodos de instalación, los más u
 
 ### Cloud
 Docker está disponible en los clouds de AWS y Azure.
+
+# Docker CLI
+Explorar comandos
