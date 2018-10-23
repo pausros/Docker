@@ -1,7 +1,8 @@
 # docker from scratch
 ### by Antonio Jesús Gil 
+#### Contexto
+Este curso se imparte en el marco de formación interna de Etic sistemes para 2018.
 ### Contenido
-
 Curso introductorio a la tecnología Docker desde la base. Nos centraremos en los detalles más importantes para su utilización a nivel usuario e identificaremos algunos puntos clave y estrategias importantes de cara a su uso en producción. Exploraremos el ecosistema de docker, profundizando en herramientas como docker-compose.
 
 Se describirán algunos casos de uso que son clave en el desarrollo de microservicios, computación cloud y devops.
@@ -28,6 +29,3 @@ Elaborar un Dashboard con indicadores en Kibana.
 Elasticsearch está diseñado para poder ser utilizado desde todo tipo de lenguajes y aplicaciones. Añadiremos funcionalidad de buscador en una app Angular.
 
 Comienza [aquí](./dockerScratch.md)
-
-#### Contexto
-Este curso se imparte en el marco de formación interna de Etic sistemes para 2018.
