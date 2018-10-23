@@ -6,4 +6,4 @@ Tras el éxito obtenido con Elastic y la puesta en produccion de varios clusters
 
 Esta vez ha sido otro socio, el cual controlaba el área de Business Inteligence quien ha solicitado la construcción de un entorno real time con docker.
 
-Nuestro CTO, un todo terreno, ha elaborado un entorno docker con Druid y superset. Construye el docker-compose para desplegar la infraestructura. 
+Nuestro CTO, un todo terreno, ha elaborado un entorno docker con Druid y superset. Construye el docker-compose para desplegar la infraestructura. (Lab 6)
