@@ -55,6 +55,10 @@ services:
     image: "redis:alpine"
 ```
     
-6. ¿Qué diferencia hay entre `docker stop` y `docker kill`?
-7. Arranca el contenedor `ubuntu`
+6. Construye y ejecuta la aplicación con Compose, `docker-compose up` Una vez tengamos los servicios activos, abre un navegador pon `http://localhost:5000` En caso de no resolver interfaz local, prueba con `http://0.0.0.0:5000`
+
+Ya tenemos nuestra web y cache funcionando. ¿Qué ocurre si hemos de modificar el código fuente de la aplicación? Deduce la respuesta
+
+
+7. Añade Arranca el contenedor `ubuntu`
 7. Elimina el contenedor `ubuntu`
