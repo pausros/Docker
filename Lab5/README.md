@@ -76,4 +76,4 @@ services:
     image: "redis:alpine"
  ```
  
-7. Elimina el contenedor `ubuntu`
+8. Ahora, ejecuta el sistema en background, `docker-compose up -d` (--detach)
