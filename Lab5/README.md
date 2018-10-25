@@ -59,6 +59,21 @@ services:
 
 Ya tenemos nuestra web y cache funcionando. ¿Qué ocurre si hemos de modificar el código fuente de la aplicación? Deduce la respuesta
 
+### Añadir volumen
+Añadiendo un punto de montaje o 'bind mount' podremos modificar el código 'on the fly'. Para obtener más información sobre volúmenes y puntos de montaje, visita este [enlace](https://docs.docker.com/storage/)
 
-7. Añade Arranca el contenedor `ubuntu`
+7. Edita `docker-compose.yml`y añade:
+```yml
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+     - "5000:5000"
+    volumes:
+     - .:/code
+  redis:
+    image: "redis:alpine"
+ ```
+ 
 7. Elimina el contenedor `ubuntu`
