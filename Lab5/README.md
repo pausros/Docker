@@ -79,5 +79,24 @@ services:
 8. Ahora, ejecuta el sistema en background, `docker-compose up -d` (--detach)
 9. Edita el archivo local `app.py` y sustituye `return` por:
 ```python
-    return 'Compose from scratch mola! Me has vistado {} veces.\n'.format(count)
+return 'Compose from scratch mola! Me has vistado {} veces.\n'.format(count)
 ```
+### Comandos
+Compose dispone de una lista importante de comandos.
+#### run
+`docker-compose run` permite ejecutar comandos disponibles para los servicios. Mostraremos las variables de entorno disponibles para el servicio `web` y `redis`
+
+10. Ejecuta `docker-compose run web env` haz lo mismo para el servicio `redis`
+#### ps
+Muestra los procesos/servicios activos.
+#### up, start y stop
+Se inician los servicios con los comandos `up`y `start` y se paran con `stop`.
+
+11. Para todos los servicios iniciados `docker-compose stop`
+12. Inicia con `start`
+13. Muestra los procesos
+14. Parar el servicio `redis` Comprueba el resultado, ¿Qué ha pasado?
+15. Para todos los servicios
+15. Inicia en background utilizando `up`
+16. Para el servicio `redis` Comprueba resultado.
+
