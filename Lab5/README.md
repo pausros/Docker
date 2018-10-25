@@ -43,7 +43,18 @@ WORKDIR /code
 RUN pip install -r requirements.txt
 CMD ["python", "app.py"]
 ```
-5. Para el contenedor `ubuntu`
+5. Definir los servicios en un fichero Compose, para ello crea un archivo `docker-compose.yml` y añade lo siguiente:
+```yml
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+     - "5000:5000"
+  redis:
+    image: "redis:alpine"
+```
+    
 6. ¿Qué diferencia hay entre `docker stop` y `docker kill`?
 7. Arranca el contenedor `ubuntu`
 7. Elimina el contenedor `ubuntu`
