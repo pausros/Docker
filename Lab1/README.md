@@ -1,4 +1,4 @@
-# Contenedores
+## Contenedores
 
 1. Descarga y ejecuta `hello-world`
 2. Instala el contenedor oficial de la imagen `ubuntu` y ejecuta en modo interactivo una shell `bash`
