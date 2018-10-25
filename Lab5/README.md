@@ -24,7 +24,7 @@ def get_hit_count():
 @app.route('/')
 def hello():
     count = get_hit_count()
-    return 'Hola Compose from scratch! Me has vistado {} veces.\n'.format(count)
+    return 'Hola Docker Compose from scratch! Me has vistado {} veces.\n'.format(count)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
@@ -77,3 +77,7 @@ services:
  ```
  
 8. Ahora, ejecuta el sistema en background, `docker-compose up -d` (--detach)
+9. Edita el archivo local `app.py` y sustituye `return` por:
+```python
+    return 'Compose from scratch mola! Me has vistado {} veces.\n'.format(count)
+```
