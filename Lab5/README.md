@@ -101,6 +101,7 @@ Se inician los servicios con los comandos `up`y `start` y se paran con `stop`.
 16. Para el servicio `redis` Comprueba resultado.
 
 #### down
-Es el comando que lo 'tira' todo, elimina contenadores incluso los datos de los volumenes utilizando el flag `--volumes` 
-17. `docker-compose down --volumes`
+Es el comando que lo 'tira' todo, elimina contenadores incluso los datos de los volumenes utilizando el flag `--volumes`
+
+18. `docker-compose down --volumes`
 
