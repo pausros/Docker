@@ -1,0 +1,40 @@
+version: '3'
+services:
+  druid:
+    image: druidio/example-cluster
+    container_name: scratch-druid
+    ports:
+      - 8081:8081
+      - 8082:8082
+  redis:
+    image: redis
+    container_name: scratch-redis
+    restart: always
+    volumes:
+      - redis:/data
+  mysql:
+    image: mysql:5
+    container_name: scratch-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: superset
+      MYSQL_DATABASE: superset
+      MYSQL_USER: superset
+      MYSQL_PASSWORD: superset
+    volumes:
+      - mysql:/var/lib/mysql
+  superset:
+    build: ./superset
+    image: superset:0.28.1
+    container_name: scratch-superset
+    restart: always
+    depends_on:
+      - redis
+      - mysql
+    ports:
+      - "8088:8088"
+volumes:
+  mysql:
+    external: false
+  redis:
+    external: false
