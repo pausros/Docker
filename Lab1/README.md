@@ -13,14 +13,14 @@ ls /home
 4. Para ver como funciona el aislamiento, ejecuta `docker container run alpine ls /home`
 5. Comprobamos que el fichero `hello.txt` no existe, esto es debido a que esta ejecución se ha realizado en una nueva instancia y por tanto separada.
 
-### Contenedores
-1. Instala el contenedor oficial de la imagen `ubuntu` y ejecuta en modo interactivo una shell `bash`
-2. Muestra los contenedores en ejecución
-3. Muestra todos los contenedores 
+### Contenedores y cli
+1. Descarga la imagen oficial de `ubuntu` y ejecuta en un contenedor interactivo una shell `bash`
+2. Muestra los contenedores en ejecución usando el comando `docker container`y `docker ls`
+3. Muestra todos los contenedores tanto en ejecución como parados
 4. Para el contenedor `ubuntu`
 5. ¿Qué diferencia hay entre `docker stop` y `docker kill`?
 6. Arranca el contenedor `ubuntu`
 7. Elimina el contenedor `ubuntu`
 
 ### Comando `exec`
-6. Intenta ejecutar y listar el contenedor que contiene el archivo `hello.txt`
+6. Inicia el contenedor del apartado **Isolation** y lista el archivo `hello.txt`
