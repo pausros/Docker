@@ -6,12 +6,12 @@ Este curso se imparte en el marco de formación interna de Etic sistemes para 20
 Curso introductorio a la tecnología Docker desde la base. Nos centraremos en los detalles más importantes para su utilización a nivel usuario e identificaremos algunos puntos clave y estrategias importantes de cara a su uso en producción. Exploraremos el ecosistema de docker, profundizando en herramientas como docker-compose.
 
 Se describirán algunos casos de uso que son clave en el desarrollo de microservicios, computación cloud y devops.
-## Lab0 Conceptos básicos
-## Lab1 Contenedores & Imágenes
-## Lab2 
-## Lab3 
-## Lab4 
-## Lab5 
-## Lab6 Reto: construye docker-compose realtime
+### Lab0 Conceptos básicos
+### Lab1 Contenedores & Imágenes
+### Lab2 
+### Lab3 
+### Lab4 
+### Lab5 
+### Lab6 Reto: construye docker-compose realtime
 
 Comienza [aquí](./dockerScratch.md)
