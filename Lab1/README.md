@@ -1,5 +1,17 @@
 ## Contenedores & Imágenes
 
+### Isolation
+Veamos un ejemplo práctico
+1. Ejecuta una shell interactiva de alpine `docker container run -it alpine /bin/ash`
+2. 
+```sh
+echo "Hello docker from scratch" > hello.txt
+
+ls
+```
+
+
+### Contenedores
 1. Instala el contenedor oficial de la imagen `ubuntu` y ejecuta en modo interactivo una shell `bash`
 2. Muestra los contenedores en ejecución
 3. Muestra todos los contenedores 
