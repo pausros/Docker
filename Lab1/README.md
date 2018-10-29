@@ -21,3 +21,6 @@ ls /home
 5. ¿Qué diferencia hay entre `docker stop` y `docker kill`?
 6. Arranca el contenedor `ubuntu`
 7. Elimina el contenedor `ubuntu`
+
+### Comando `exec`
+6. Intenta ejecutar y listar el contenedor que contiene el archivo `hello.txt`
