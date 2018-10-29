@@ -20,4 +20,9 @@ Las distribuciones linux disponen de varios métodos de instalación, los más u
 Docker está disponible en los clouds de AWS y Azure.
 
 # Docker CLI
-Explorar comandos
+Explorar comandos tanto de gestión como de servicio (imágenes y contenedores)
+1. Ejecuta `docker`
+2. Ejecutando nuestro primer contenedor `docker container run hello-world`
+3. Investiga sobre los comandos `docker pull` y `docker image pull` ¿Se Observan diferencias? Descarga la imagen `alpine`
+4. Ahora disponemos de imagenes en nuestro docker local. Lista las imágenes con `docker image ls` ¿Qué diferencias has observado entre la ejecución de los comandos anteriores?
+5. Vamos a correr un contenedor basado en la imagen alpine, ejecuta `docker container run alpine ls -l` 
