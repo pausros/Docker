@@ -23,4 +23,4 @@ ls /home
 7. Elimina el contenedor `ubuntu`
 
 ### Comando `exec`
-6. Inicia el contenedor del apartado **Isolation** y lista el archivo `hello.txt`
+6. Inicia el contenedor del apartado **Isolation** usando `start` y lista el archivo `hello.txt` usando `exec`
