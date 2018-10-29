@@ -27,3 +27,4 @@ Explorar comandos tanto de gestión como de servicio (imágenes y contenedores)
 4. Ahora disponemos de imagenes en nuestro docker local. Lista las imágenes con `docker image ls` ¿Qué diferencias has observado entre la ejecución de los comandos anteriores?
 5. Vamos a correr un contenedor basado en la imagen alpine, ejecuta `docker container run alpine ls -l` 
 6. Ejecuta `docker container run alpine echo "curso docker from scratch"`
+7. Prueba a ejecutar otros comandos, por ejemplo `/bin/sh` `cat /etc/alpine-release`
