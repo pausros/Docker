@@ -8,10 +8,10 @@ Curso introductorio a la tecnología Docker desde la base. Nos centraremos en lo
 Se describirán algunos casos de uso que son clave en el desarrollo de microservicios, computación cloud y devops.
 ### Lab0 Conceptos básicos
 ### Lab1 Contenedores & Imágenes
-### Lab2 
-### Lab3 
-### Lab4 
-### Lab5 
-### Lab6 Reto: construye docker-compose realtime
+### Lab2 DockerHub
+### Lab3 Networking & Volumes
+### Lab4 Dockerfile
+### Lab5 Docker-compose
+### Lab6 Reto: construye docker-compose
 
 Comienza [aquí](./dockerScratch.md)
