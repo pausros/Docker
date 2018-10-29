@@ -4,8 +4,7 @@ La dirección desea realizar un analisis en tiempo real del impacto de la empres
 
 Como CTO's de la compñia hemos de preparar un entorno docker para realizar las pruebas. Por esta razon te presentamos este reto:
 
-
-1. Haz cambios que necesite el entorno Docker
+1. Termina de construir el Docker-compose y añade los que necesite el entorno
 2. Construye las imágenes
-3. Arranca el entorno.
+3. Arranca el entorno
 
