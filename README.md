@@ -13,5 +13,3 @@ Se describirán algunos casos de uso que son clave en el desarrollo de microserv
 ### Lab4 Dockerfile
 ### Lab5 Docker-compose
 ### Lab6 Reto: construye docker-compose
-
-Comienza [aquí](./dockerScratch.md)
