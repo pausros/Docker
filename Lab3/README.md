@@ -5,3 +5,4 @@
 3. Muestra la webA en un navegador
 4. Arranca en el puerto 8000 en background un contenedor `nginx` con el contenido del directorio `webB`
 5. Muestra la webB en un navegador
+6. Crea un volumen 
