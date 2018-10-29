@@ -5,4 +5,5 @@
 3. Muestra la webA en un navegador
 4. Arranca en el puerto 8000 en background un contenedor `nginx` con el contenido del directorio `webB`
 5. Muestra la webB en un navegador
-6. Crea un volumen 
+6. Ejecuta el script `very-useful.py` en un contenedor python3.6-slim
+7. Modifica el código fuente de la webA y webB 
