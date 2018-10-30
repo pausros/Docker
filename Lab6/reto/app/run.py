@@ -3,6 +3,7 @@ from influxdb import InfluxDBClient
 from datetime import datetime
 from time import sleep
 
+# ToDo: Add tu host influx
 client = InfluxDBClient('host', 8086, 'root', 'root', 'bitcoin_price')
 client.create_database('bitcoin_price')
 
