@@ -1,0 +1,2 @@
+bitcoin-price-api
+influxdb==5.0.0
