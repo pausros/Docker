@@ -1,23 +1,7 @@
 version: '3'
 services:
-  influxdb:
-    image: influxdb:latest
-    container_name:
-    ports:
-      - 8086:8086
-    restart: always
-    volumes:
-      - influx:/var/lib/influxdb
-  grafana:
-    image: grafana/grafana:latest
-    container_name: 
-    ports:
-      - 3000:3000
-    restart: always
-    depends_on:
-      - influxdb
-    volumes:
-      - grafana:/var/lib/grafana
+  ...
+  ... 
   app:
     build:
     image:
