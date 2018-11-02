@@ -5,8 +5,12 @@
 5. Ejecuta el contenedor `extractor:2.0`
 6. Ejecuta el contenedor `extractor:3.0`
 
-### Intentalo
+### Comandos docker
 ```sh
 $ docker image build -t extractor:1.0 .
 $ docker container run -it --rm -p 5000:5000 extractor:1.0
+```
+### Comprueba su funcionamiento
+```sh
+$ curl -i http://localhost:5000/api/http://example.com/
 ```
