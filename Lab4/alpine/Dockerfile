@@ -1,6 +1,6 @@
 FROM 
 MAINTAINER 
-RUN apk update && apk add nodejs
+apk update && apk add nodejs
 . /app
-WORKDIR /app
-CMD ["node", "index.js"]
+/app
+["node", "index.js"]
