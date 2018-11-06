@@ -21,6 +21,7 @@ ls /home
 5. ¿Qué diferencia hay entre `docker stop` y `docker kill`?
 6. Arranca el contenedor `ubuntu`
 7. Elimina el contenedor `ubuntu`
+8. Eliminarlos todos docker rm $(docker ps -qa)
 
 ### Comando `exec`
 6. Inicia el contenedor del apartado **Isolation** usando `start` y lista el archivo `hello.txt` usando `exec`
