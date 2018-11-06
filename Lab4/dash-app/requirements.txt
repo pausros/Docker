@@ -1,0 +1,10 @@
+dash==0.28.6  # The core dash backend
+dash-html-components==0.13.2  # HTML components
+dash-core-components==0.36.0  # Supercharged components
+dash-table==3.1.2  # Interactive DataTable component (new!)
+pandas_datareader
+pandas
+plotly
+#jupyter
+#numpy=1.0.0
+#matplotlib
